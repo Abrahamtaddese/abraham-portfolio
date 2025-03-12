@@ -28,6 +28,16 @@ body {
     object-fit: cover; /* Ensures image fits without distortion */
 }
 
+.title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #00ffcc;
+    text-shadow: 0 0 15px #00ffcc; /* Stronger neon glow */
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
 .background {
     position: absolute;
     top: 0;
@@ -46,7 +56,7 @@ body {
 
 .typing-container {
     font-size: 2em;
-    margin-top: 230px; /* Adjust to avoid overlapping with photo */
+    margin-top: 100px; /* Adjusted for title */
     margin-bottom: 20px;
     text-shadow: 0 0 10px #00ffcc; /* Neon glow */
 }
